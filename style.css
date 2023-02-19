@@ -1,0 +1,702 @@
+.sliderr {
+    
+    background-color: black;
+    color:rgb(105, 30, 112) ;
+  }
+  
+  .sliderr .slide {
+      height: 40px;
+      padding-right: 120px;
+      position: relative;
+  }
+  
+  .sliderr .slide p {
+      max-width: none;
+      opacity: 0;
+      transition: 0.1s ease-out;
+      color:rgb(105, 30, 112) ;
+  }
+  .sliderr .slide:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-size: contain !important;
+      opacity: 1;
+      transition: 0.1s ease-out;
+  }
+  @keyframes scroll {
+      0% {
+          transform: translateX(0);
+      }
+      100% {
+          transform: translateX(-2227px);
+      }
+  }
+  .sliderr {
+      height: 40px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+  }
+  .sliderr::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg);
+  }
+  .sliderr::before {
+      left: 0;
+      top: 0;
+  }
+  .sliderr .slider-animation {
+      animation: scroll 40s linear infinite;
+      display: flex;
+      /*width: calc(250px * 14);*/
+      width: 4296px;
+  }
+  .sliderr .slider-animation:hover {
+      animation-play-state: paused;
+  }
+  .sliderr .slide {
+      height: 40px;
+      padding-right: 120px;
+      position: relative;
+  }
+  
+  .sliderr .slide p {
+      max-width: none;
+      opacity: 0;
+      transition: 0.1s ease-out;
+  }
+  .sliderr .slide:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-size: contain !important;
+      opacity: 1;
+      transition: 0.1s ease-out;
+  }
+  .sliderr .slider-animation:hover .slide:hover:before {
+      opacity: 0;
+  }
+  .sliderr .slider-animation:hover .slide:hover  p{
+      opacity: 1;
+  }
+
+/* nav */
+.container-fluid a {
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(105, 30, 112);
+}
+.tel .fa-solid:hover{
+    
+    cursor: pointer;
+}
+.ikon i {
+    /* margin: 5px; */
+    padding: 0 20px 0 10px ;
+}
+.ikon i:hover{
+    color:rgb(105, 30, 112);
+    cursor: pointer;
+}
+ .iki a{
+    font-size: 15px;
+}
+.iki img:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+.uc a{
+    font-size: 15px;
+}
+.form-control{
+    border-color:rgb(105, 30, 112) ;
+}
+.btn{
+    border-color:rgb(105, 30, 112);
+    color: white;
+    background-color: rgb(105, 30, 112);
+}
+.btn:hover{
+    background-color: white;
+  border: rgb(105, 30, 112);
+  color:rgb(105, 30, 112) ;
+}
+.ilk{
+    background-color: rgb(138, 134, 134);
+   
+}
+
+.orta{
+    background-color: rgb(170, 165, 165);
+}
+.son{
+    background-color: rgb(226, 226, 226);
+}
+/* accordion */
+.fltrs-color {
+    max-width: 30px;
+    width: 30px;
+    max-height: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    background-color: black;
+    border: none;
+}
+.collapsed:focus{
+    outline: 2px solid rgb(105, 30, 112) ;
+    
+}
+
+
+.container input:hover{
+    cursor: pointer;
+}
+.container .mavi:hover{
+    cursor: pointer;
+}
+.container .gri:hover{
+    cursor: pointer;
+}
+.container .siyah:hover{
+    cursor: pointer;
+}
+.container .beyaz:hover{
+    cursor: pointer;
+}
+.mavi {
+    max-width: 30px;
+    width: 30px;
+    max-height: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    background-color: rgb(30, 61, 233);
+    border: none;
+}
+.beyaz{
+    max-width: 30px;
+    width: 30px;
+    max-height: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    background-color: rgb(219, 219, 219);
+    
+}
+.gri {
+    max-width: 30px;
+    width: 30px;
+    max-height: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    background-color: rgb(126, 126, 126);
+    border: none;
+}
+ .fltr-item{
+    padding-top: 10px;
+}
+.prg{
+    padding-left: 10px;
+}
+.urun{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 20px;
+}
+.urun li{
+    padding: 13px 0;
+}
+.urun .s:hover{
+    color:rgb(105, 30, 112) ;
+    cursor: pointer;
+}
+.urun .c:hover{
+    color:rgb(105, 30, 112) ;
+    cursor: pointer;
+}
+.urun .ı:hover{
+    color:rgb(105, 30, 112) ;
+    cursor: pointer;
+}
+.accordion-button:hover{
+    color:rgb(105, 30, 112) ;
+    cursor: pointer;
+}
+/* carousel */
+.carousel-item img{
+    max-height: 800px;
+}
+
+/* .cards .body{
+   padding:0 0 0 15px;
+    
+} */
+.cards .btn:hover{
+   color: white;
+   border: none;
+}
+.ciki{
+    
+    /* padding-left: 475px; */
+}
+.cards {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.cardo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    margin: 10px;
+    
+    
+    
+}
+.cards .card:hover{
+    background-color:rgb(105, 30, 112) ;
+        
+        cursor: pointer;
+        opacity: 0.5;
+        color: white;
+    }
+    .cards .btn:hover{
+        border-color: white;
+        color: white;
+    }
+    .cards .btn{
+        border-color:white ;
+        color: white;
+        background-color: rgb(105, 30, 112);
+    }
+    
+    
+.cards img:hover{
+    background-color:rgb(105, 30, 112) ;
+}    
+
+.cardi:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.5;
+    color: rgb(105, 30, 112);
+}
+
+/* footer */
+.ul {
+    padding-top: 100px;
+    background-color: rgb(138, 134, 134);
+}
+/* .brands{
+    padding: ;
+} */
+.brands i{
+    padding:0 0px 0 18px;
+}
+.z a{
+    font-size:15px ;
+}
+.brands i:hover{
+    color: rgb(105, 30, 112);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.ul .b{
+    padding-bottom: 10px;
+}
+.ul .container{
+    padding-top: 20px;
+}
+.ul .b{
+    color: rgb(105, 30, 112);
+}
+.ul a:hover{
+    color: rgb(105, 30, 112);
+    cursor: pointer;
+}
+.ul a{
+    text-decoration: none;
+    color: #333;
+}
+.ul li{
+    color: #333;
+}
+.ul li:hover{
+    color:rgb(105, 30, 112) ;
+    cursor: pointer;
+}
+.ul li{
+    list-style-type: none;
+}
+.ul img:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+.pr p{
+   word-spacing: 15px;
+   color: #333;
+}
+.pr{
+    background-color:rgb(138, 134, 134) ;
+}
+.pr .container{
+    padding-top: 100px;
+}
+.pr i{
+    font-size: 25px;
+}
+.pr p:hover{
+ cursor: pointer;
+}
+
+.turk img {
+    padding:0 10px;
+    
+}
+.turk img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.turk i {
+   padding:0 10px;
+}
+   
+.turk i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.hak{
+    background-color: rgb(138, 134, 134);
+    
+}
+.hak p{
+    padding-top: 100px;
+}
+.haber h5{
+    color: rgb(105, 30, 112);
+}
+/* scrollbar */
+::-webkit-scrollbar{
+    max-width: 6px;
+    width: 6px;
+    
+}
+::-webkit-scrollbar-thump{
+    background-color: rgb(138, 134, 134) ;
+}
+::-webkit-scrollbar-track{
+   background-color: rgb(105, 30, 112);
+}
+/* resposive */
+/* .row{
+    flex-wrap: wrap;
+}
+.navbar .ilk{
+    flex-basis: 350px;
+} */
+@media only screen and (max-width: 600px) {
+    .container .brands{
+        max-width: 100px;
+    width: 100%;
+}
+
+
+}
+/* ikinci sayfa form */
+.formm{
+    padding-top: 300px;
+}
+
+.formm .isim{
+    width: 398px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+    border-color: rgb(105, 30, 112);
+}
+   
+.formm .mails{
+    width: 398px;
+    border-radius: 5px;
+    border-color: rgb(105, 30, 112);
+    
+}
+.formm .konu{
+    width: 800px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border-color: rgb(105, 30, 112);
+}
+.area{
+    border-radius: 5px;
+    border-color: rgb(105, 30, 112);
+}
+.formm h4{
+    color:rgb(105, 30, 112) ;
+}
+.formm .gondere{
+    
+    display: block;
+    padding-left: 650px;
+    
+    
+}
+.formm .gonders{
+    min-width: 140px;
+    border-radius: 5px;
+    background-color:rgb(105, 30, 112) ;
+    color: white;
+    border: none;
+}
+.formm .gonders:hover{
+    background-color:white ;
+    color: rgb(105, 30, 112);
+}
+.formm{
+    gap: 100px;
+}
+.formm{
+    justify-content: center;
+}
+.formm .fa-solid:hover{
+    color:rgb(105, 30, 112) ;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.formm .fa-brands:hover{
+    color:rgb(105, 30, 112) ;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.adres a{
+    font-size: 15px;
+    
+}
+.content h4{
+    padding-top: 10px;
+}
+.adres{
+    margin-top: 40px;
+}
+/* sepetim */
+.gr img{
+    width: 80px;
+    height: 100px;
+    
+}
+.gr{
+    padding-top: 25px;
+}
+.sepett .sp {
+    
+    padding-top: 35px;
+}
+.sepett .content p{
+    margin: 0;
+    padding:0 20px;
+    
+
+}
+.sepett .textboxx{
+    
+    padding: 0 75px;
+    padding-top: 55px;
+
+}
+
+.fyt{
+    padding: 0 75px;
+    padding-top: 42px;
+    color:rgb(105, 30, 112) ;
+
+}
+.sepett{
+    max-width: 800px;
+    min-height: 150px;
+    border: 2px solid rgb(219, 218, 218);
+    margin-top: 10px;
+    
+}
+.sptt{
+    padding-top: 200px;
+}
+.sepetler{
+    max-width: 900px;
+    min-height: 600px;
+    padding-top: 40px;
+    border: 2px solid rgb(219, 218, 218);
+    
+}
+.sepetler .butonn{
+    max-width: 800px;
+    margin: auto;
+    margin-left: auto;
+    
+}
+.sepetler a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.ödeme{
+    max-width: 400px;
+    height: 300px;
+    
+    margin: 10px;
+    
+    
+    
+}
+.ödeme h5{
+    text-align: center;
+    height: 35px;
+    padding-top: 3px;
+    border: 2px solid black;
+    background-color: rgb(219, 218, 218);
+    border-radius: 5px;
+    border: none;
+    color:rgb(105, 30, 112) ;
+}
+.ödeme h5:hover{
+    cursor: pointer;
+}
+.tutar p{
+    padding: 0;
+    margin: 0;
+}
+.tutar{
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color: rgb(219, 218, 218);
+    border-radius: 5px;
+    border: none;
+}
+.kalın{
+    font-weight: bold;
+}
+.kalıns{
+    font-weight: bold;
+    
+    
+}
+.tmm{
+    padding-top: 30px;
+    
+}
+.tmm h5{
+    background-color: rgb(219, 218, 218);
+    border-radius: 5px;
+    border: none;
+    
+}
+/* 3.sayfa */
+/* card */
+.cardo .btn{
+    color: rgb(105, 30, 112);
+    background-color: white;
+}
+.cardo .btn:hover{
+    color: white;
+    background-color:rgb(105, 30, 112) ;
+}
+/* kayıt sayfası */
+.kayıts{
+    text-align: center;
+    
+    padding-top: 300px;
+}
+.kayıts .form-control{
+    margin: 10px;
+}
+.kayıts h4{
+    margin: 10px;
+    width: 500px;
+}
+.kayıts .buton{
+    margin: 10px;
+    border-radius: 8px;
+    height: 50px;
+    background-color: rgb(105, 30, 112) ;
+    border: none;
+    color: white;
+}
+
+.kayıts h4{
+    color:rgb(105, 30, 112) ;
+}
+.uyeoll{
+    text-align: center;
+    
+    padding-top: 300px;
+}
+.uyeoll .form-control{
+    margin: 10px;
+}
+.uyeoll h4{
+    margin: 10px;
+    width: 500px;
+}
+.uyeoll .buton{
+    margin: 10px;
+    border-radius: 8px;
+    height: 50px;
+    background-color: rgb(105, 30, 112) ;
+    border: none;
+    color: white;
+}
+.uyeoll .buton:hover{
+    background-color: white;
+    color: rgb(105, 30, 112);
+    border: 1px solid rgb(105, 30, 112) ;
+}
+.kayıts .buton:hover{
+    background-color: white;
+    color: rgb(105, 30, 112);
+    border: 1px solid rgb(105, 30, 112) ;
+}
+
+.uyeoll h4{
+    color:rgb(105, 30, 112) ;
+}
+/* .container  .uyeoll{
+    margin-left: 180px;
+} */
+.sosyall {
+   text-align: center;
+   padding-top: 40px;
+  
+}
+.sosyall .fa-brands{
+    margin: 30px;
+    font-size: 18px;
+}
+.uyelik .kayıts,.uyeoll{
+    margin:0 10px;
+    
+}
+.hayvan img{
+    height: 500px;
+}
+.yılbaş img{
+    height: 500px;
+}
+
+
+
+
